@@ -14,4 +14,3 @@ let weather = 'hot';
 if (weather === 'hot') {
   console.log('Weather is hot');
 } else console.log('Weather is Sunny');
-knfk
