@@ -62,3 +62,5 @@ if (cell > 60000) {
 } else {
   console.log('You can;t afford Mobile phone');
 }
+
+// While loop
