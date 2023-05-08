@@ -35,34 +35,30 @@ switch (grade) {
     console.log('Unkown Grade');
 }
 
-let mobile = '70k';
+let mobile = 70000;
 
 switch (true) {
-  case mobile > '60k':
+  case mobile > 60000:
     console.log('Buy iPhone Mobile');
     break;
-  case mobile > '10k':
+  case mobile > 10000:
     console.log('Buy Android Mobile');
     break;
-  case mobile > '5k':
-  case mobile < '10k':
+  case mobile > 5000 && mobile < 10000:
     console.log('Buy basic Mobile');
     break;
   default:
     coneole.log("You can't afford mobile phone now!");
 }
 
-let cell = 30;
+let cell = 5000;
 
-if (cell > 60) {
-  console.log("Buy I Phone Mobile!");
-}
-else if (cell < 10) {
-  console.log("Buy Android Mobile!");
-}
-else if (cell > 5) {
-  console.log ("Buy Basic Mobile");
-}
-else {
-  console.log("You can;t afford Mobile phone");
+if (cell > 60000) {
+  console.log('Buy I Phone Mobile!');
+} else if (cell < 10000) {
+  console.log('Buy Android Mobile!');
+} else if (cell > 5000 && cell < 10000) {
+  console.log('Buy Basic Mobile');
+} else {
+  console.log('You can;t afford Mobile phone');
 }
