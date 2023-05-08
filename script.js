@@ -35,4 +35,8 @@ switch (grade) {
     console.log('Unkown Grade');
 }
 
-
+for (let i = 10; i >= 1; i--) {
+  if (i % 2 !== 0) {
+    console.log("Odd Number #" + i);
+  }
+}
