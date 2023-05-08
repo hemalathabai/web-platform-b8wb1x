@@ -35,8 +35,34 @@ switch (grade) {
     console.log('Unkown Grade');
 }
 
-for (let i = 10; i >= 1; i--) {
-  if (i % 2 !== 0) {
-    console.log("Odd Number #" + i);
-  }
+let mobile = '70k';
+
+switch (true) {
+  case mobile > '60k':
+    console.log('Buy iPhone Mobile');
+    break;
+  case mobile > '10k':
+    console.log('Buy Android Mobile');
+    break;
+  case mobile > '5k':
+  case mobile < '10k':
+    console.log('Buy basic Mobile');
+    break;
+  default:
+    coneole.log("You can't afford mobile phone now!");
+}
+
+let cell = 30;
+
+if (cell > 60) {
+  console.log("Buy I Phone Mobile!");
+}
+else if (cell < 10) {
+  console.log("Buy Android Mobile!");
+}
+else if (cell > 5) {
+  console.log ("Buy Basic Mobile");
+}
+else {
+  console.log("You can;t afford Mobile phone");
 }
