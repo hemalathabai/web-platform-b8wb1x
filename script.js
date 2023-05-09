@@ -63,7 +63,7 @@ if (cell > 60000) {
   console.log('You can;t afford Mobile phone');
 }
 
-let i = 5;
+let i = 0;
 while (i >= 1) {
   if (i % 2 !== 0) {
     console.log('Odd Number #' + i);
@@ -71,8 +71,8 @@ while (i >= 1) {
   i--;
 }
 do {
-  if (i % 2 == 0) {
+  if (i % 2 !== 0) {
     console.log('Odd Number #' + i);
   }
   i++;
-} while (i >= 1);
+} while (i <= 10);
