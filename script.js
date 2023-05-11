@@ -63,18 +63,27 @@
 //   console.log('You can;t afford Mobile phone');
 // }
 
-let i = 15;
-while (i >= 1) {
-  if (i % 2 !== 0) {
-    console.log('Odd Number #' + i);
-  }
-  i--;
-  console.log(i);
+// let i = 15;
+// while (i >= 1) {
+//   if (i % 2 !== 0) {
+//     console.log('Odd Number #' + i);
+//   }
+//   i--;
+//   console.log(i);
+// }
+// do {
+//   console.log(i);
+//   if (i % 2 !== 0) {
+//     console.log('Odd Number #' + i);
+//   }
+//   i++;
+// } while (i <= 10);
+
+let colors = ['red', 'blue', 'green'];
+for (let key in colors) {
+  console.log(colors[key]);
 }
-do {
-  console.log(i);
-  if (i % 2 !== 0) {
-    console.log('Odd Number #' + i);
-  }
-  i++;
-} while (i <= 10);
+
+for (let color of colors) {
+  console.log('color :' + color);
+}
